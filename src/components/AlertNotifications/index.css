@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.alert-notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notification-container {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.text-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .text-container {
+    margin-top: 0px;
+  }
+}
+.icon {
+  height: 55px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+.message-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.green {
+  color: #2dca73;
+}
+.red {
+  color: #ff0b37;
+}
+.yellow {
+  color: #ffb800;
+}
+.blue {
+  color: #0f81e0;
+}
